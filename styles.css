@@ -1,0 +1,79 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+main > h1 {
+  text-align: center;
+  font-size: 3.5em;
+}
+body {
+  background-color: #3E3F3F;
+  color: antiquewhite;
+  padding-top: 50px;
+  padding-bottom: 20px;   
+}
+
+h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ /* font-family: Rockwell,'Times New Roman', Times, serif;*/
+}
+
+.myButton {
+	background-color: #5cbf2a;
+	display:inline-block;
+  border-radius:20px;
+  border:1px solid #18ab29;
+	cursor: pointer;
+	color: #ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 24px;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/* unvisited link */
+a:link {
+  color: lightblue;
+}
+
+/* visited link */
+a:visited {
+  color: lightgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: bisque;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
